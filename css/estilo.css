@@ -1,0 +1,265 @@
+/*==========PADRÃO DA PAGINA==========*/
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin:0%; 
+    padding: 0%; 
+    font-size: 100%; 
+    border:none; 
+    outline:none; 
+    font-weight: 300; 
+    box-sizing: border-box; 
+}
+
+body, html {
+    width: 100%; height: 100%;
+    scroll-behavior: smooth;
+}
+body {
+    background-color:#f5f5f5;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img {
+    max-width: 100%;
+}
+/*Cabeçalho*/
+#padrao {
+    width: 100%;
+    background:url(../img/bg.png);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;  
+    position: static;
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+}
+.nav-opcoes ul {
+    
+    padding-top: 30px;
+    width: 100%;
+    position: static;
+    margin-top: 0;
+    text-align: center;   
+}
+.nav-opcoes li {
+    list-style-type: none;
+    display: inline-block;
+}
+.nav-opcoes a {
+    text-decoration: none;
+    display:block;
+    margin: 30px 120px 0 60px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+a:hover {
+    color:#dc3c4d ;
+    transition: .2s;
+}
+.logonome {
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/logonome.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0px;
+    background-attachment: scroll;   
+}
+.buttons {
+    text-align: center; 
+}
+.buttons i{
+    float: right;
+}
+.button-a, .button-c {
+    display: inline-block; 
+    margin-right:3%; 
+    margin-left:3%;
+}
+.button-play, .button-apple {
+    display: inline-block; 
+    margin-right:6.5%; 
+    margin-left:6.5%;
+}
+.btn-cadastro, .btn-afiliado {
+    margin-top: 15px;
+    border: none;
+    background-color:#dc3c4d;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 19px;
+    padding: 20px;
+    width:250px;
+    cursor: pointer;
+}
+.quebra{clear: both;}
+
+.btn-play, .btn-apple {
+    margin-top: 15px;
+    width:150px;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+.intro-s {
+    
+    text-align: center;
+}
+.intro {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 0 20px 15px 20px;
+    color: white;
+    background-color:rgba(0,0,0,0.6);
+    border-radius: 90px;
+}
+.intro h2{
+    padding-top: 2%;
+    font-size:24px;
+}
+.intro p{
+    padding-bottom: 2%;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+/*==========SERVIÇOS==========*/
+
+.servico{
+    width: 100%; 
+    height: 850px;
+    background-color: white; 
+    text-align: left; 
+    border-radius: 7px; 
+    margin-bottom: 3%;
+}
+.servico img{
+    border-radius: 7px 7px 0px 0px;}
+
+.inner{
+    text-align: center; 
+    padding: 7%;}
+
+.inner a{
+    font-size: 1.5em; 
+    color:black; 
+    font-weight: 700;}
+.inner h1{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.inner h4{ 
+    font-size: 1.2em; 
+    color:black; 
+    margin-top: 2%;
+    font-weight: 600; }
+
+.inner p{
+    margin-top: 6%; 
+    color:black; 
+    line-height: 1.5em; 
+    font-family: sans-serif;
+}
+    
+
+.inner ul li {
+    list-style:inside; 
+    text-align: left;
+    font-family: sans-serif;
+}
+.servico {
+    margin-left: 1%; 
+    width: 31%;
+    margin-right: 1%;
+    float: left;
+} 
+.servico:nth-child(2){
+    margin-right:1%
+}
+.servico:nth-child(3){
+    margin-right:0%
+}
+/*==========QUEM SOMOS==========*/
+aside {
+    text-align: center;
+    background-color: #f5f5f5;
+    margin-top: 35%;
+}
+
+aside h1{
+    margin-right: 175px;
+}
+aside p{
+    padding-right: 75px;
+    text-align: left;
+}
+aside div {
+    display: inline-block;
+    border-radius: 50px;
+    text-align: left;
+    background-color:white;
+}
+aside h2{
+    text-align: left;
+}
+aside a{
+    width: 75px;
+    height: 75px; 
+    float: right;
+    margin-left: 70px;
+}
+
+.ia{
+    margin-top: 45px;
+}
+.ic{
+    padding-top: 15px;
+}
+.quemsomos{
+    width:500px;
+    height:500px;
+    background: url(../img/quem.png)center center/100% no-repeat;
+    text-align: center;
+    margin-bottom: 50px;
+  
+}
+.missaovisaovalores{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 250px; 
+}
+
+
+
+
+/*==========RODAPÉ==========*/
+.rodape{
+    
+    background-color:#333; 
+    border-top: solid; 
+    border-bottom:solid;
+    border-color: black; 
+    text-align: center;
+  }
+  .icones-sociais {
+      margin-top: 20px;
+      margin-left: 45px;
+
+  }
+  .icones-sociais a{
+      font-size: 3.5em; 
+      color:rgba(255,255,255,0.7);
+      margin-right: 50px
+  }
+  .icones-sociais a:hover{
+      color: rgb(255,255,255);
+  }
+  .copyright {
+      color: rgba(255,255,255,0.7);
+  }
