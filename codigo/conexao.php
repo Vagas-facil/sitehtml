@@ -1,9 +1,10 @@
 <?php
 
-$hostname = "localhost";
-$bancodedados = "login";
-$usuario = "root";
-$senha = "";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$db = 'login';
 
-$mysqli = new mysqli ($hostname, $usuario, $senha, $bancodedados) or die( "Falha ao conectar");
-mysql_select_db( $database ) or die( 'Erro na seleção do banco' );
+$mysqli = mysql_conect($servername,$username,$password, $db) or die( "Falha ao conectar");
+
+$conn->close();
