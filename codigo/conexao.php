@@ -10,7 +10,6 @@ if(!$mysqli){
     die("erro ao conectar: ". mysql_error());
 }
 // conexao com o banco de dados
-echo "banco criado com sucesso";
 $sql = 'CREATE TABLE IF NOT EXISTS login(
     Nome VARCHAR(50),
     Email VARCHAR(50),
