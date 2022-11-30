@@ -13,4 +13,5 @@ if(!mysqli_query($mysqli, $db)){
 //inserção de dados do html na tabela criada anteriormente
 echo "funciona";
 mysqli_close($mysqli);
+header('location:../index.html');
 ?>
